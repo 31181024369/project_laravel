@@ -5,13 +5,13 @@
             <div class="section" id="slider-wp">
                 <div class="section-detail">
                     <div class="item">
-                        <img src="public/images/slider-01.png" alt="">
+                        <img src="images/slider-01.png" alt="">
                     </div>
                     <div class="item">
-                        <img src="public/images/slider-02.png" alt="">
+                        <img src="images/slider-02.png" alt="">
                     </div>
                     <div class="item">
-                        <img src="public/images/slider-03.png" alt="">
+                        <img src="images/slider-03.png" alt="">
                     </div>
                 </div>
             </div>

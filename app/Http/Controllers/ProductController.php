@@ -120,16 +120,7 @@ class ProductController extends Controller
         else
         {
             $Products=Product::where('name', 'LIKE', "%{$cat_name}%")->paginate(4);
-            
         }
-
-
-
-        
-
-
-
-
 
 
 

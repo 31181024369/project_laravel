@@ -265,7 +265,7 @@
             });
 </script>
 
-<script>
+<!-- <script>
     $(document).ready(function(){
         $('#s').keyup(function(e) {
                 
@@ -296,12 +296,12 @@
                     dataType: 'text',
                     success: function (data) {
                         $("#search_product").html(data);
-                        console.log(data);
+                       // console.log(data);
                     },
-                    error: function (xhr, ajaxOptions, thrownError) {
-                        alert(xhr.status);
-                        alert(thrownError);
-                    }
+                    // error: function (xhr, ajaxOptions, thrownError) {
+                    //     alert(xhr.status);
+                    //     alert(thrownError);
+                    // }
                 });
             }
 
@@ -314,7 +314,7 @@
         });
 
     });
-</script>
+</script> -->
 
 </body>
 </html>

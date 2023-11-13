@@ -16,8 +16,9 @@ class CreateProductCatsTable extends Migration
         Schema::create('product_cats', function (Blueprint $table) {
             $table->id();
             $table->string('name', 200);
+           
             //$table->string('creator', 200);
-            //$table->integer('parent_id');
+            $table->integer('parent_id');
             //$table->enum('status', [1, 2]);
             $table->timestamps();
         });
